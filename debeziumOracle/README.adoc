@@ -1,1 +1,3 @@
-
+Change Data Capture (CDC) is a technique and a design pattern. which offers to replicate data between databases in real time.
+Debezium is an open-source platform for CDC built on top of Apache Kafka. Its primary use is to record all row-level changes committed to each source database table in a transaction log. Each application listening to these events can perform needed actions based on incremental data changes. 
+In this example, we are going to develop embedding the Debezium engine within our application for Oracle data base
